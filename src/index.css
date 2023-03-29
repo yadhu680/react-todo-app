@@ -11,3 +11,64 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.main {
+  margin: 0 auto;
+  max-width: 500px;
+}
+.content {
+  border: 5px #c0c0ff solid;
+  border-radius: 5px;
+  font-size: 20px;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+table {
+  width: 100%;
+}
+td:first-child {
+  width: 100%;
+}
+td:last-child {
+  min-width: 125px;
+}
+th {
+  text-align: left;
+}
+tr:nth-child(even) {
+  background-color: #FFF;
+}
+input, button {
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 2px #c0c0c0 solid;
+}
+button {
+  cursor: pointer;
+}
+button.add {
+  background-color: #0080ff;
+  color: #FFF;
+}
+button.edit {
+  background-color: #20a0b0;
+  color: #FFF;
+}
+button.delete {
+  background-color: #e04040;
+  color: #FFF;
+}
+button.save {
+  background-color: #30b040;
+  color: #FFF;
+}
+button.back {
+  background-color: #707080;
+  color: #FFF;
+}
+.task {
+  cursor: pointer;
+}
+.completed {
+  text-decoration: line-through;
+}
