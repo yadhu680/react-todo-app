@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# React Todo App : Learn React Components
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple React Todo App for learning how `React Component` works. Download and try learning!
 
 ## Available Scripts
 
